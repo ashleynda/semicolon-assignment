@@ -10,7 +10,7 @@ public class Array4By3 {
         int[][] numbers = new int[4][3];
 
 
-        for (int row = 0; row < numbers.length; row++) {
+        for (int row = 0; row < numbers.length-1; row++) {
             for (int column = 0; column < numbers[row].length; column++) {
                 System.out.println("Enter 9 values:  ");
                 int values = input.nextInt();

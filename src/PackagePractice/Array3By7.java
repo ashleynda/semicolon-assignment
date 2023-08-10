@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Array3By7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[][] numbers = new int[7][];
-        numbers[0] = new int[3];
-        numbers[1] = new int[3];
-        numbers[2] = new int[3];
-        int total = 0;
+        int[][] numbers = new int[3][7];
+//        numbers[0] = new int[3];
+//        numbers[1] = new int[3];
+//        numbers[2] = new int[3];
+//        int total = 0;
 
         for (int row = 0; row < numbers.length-4; row++){
             for (int column = 0; column < numbers[row].length; column++){
