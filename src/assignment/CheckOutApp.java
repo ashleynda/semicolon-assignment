@@ -182,7 +182,7 @@ public class CheckOutApp {
         for (int counter = 0; counter < itemsName.size(); counter++){
             double total = productNumber.get(counter) * productAmount.get(counter);
             System.out.printf("%n%10s%9d%11.2f%11.2f", itemsName.get(counter), productNumber.get(counter),productAmount.get(counter), total);
-            subTotal += total;
+
         }
         System.out.println("\n" + "-".repeat(60));
 
@@ -192,22 +192,13 @@ public class CheckOutApp {
                 "VAT @ 17.50%: ", vat);
         System.out.println("\n" + "=".repeat(60));
         double billTotal = (subTotal - discount + vat);
-        System.out.printf("%n%30s%11.2f", "Bill Total: ", billTotal);
-        amountGiven();
-        System.out.printf("%n%30s%11.2f", "Amount Paid: ", amountGiven);
-        double balance = billTotal - amountGiven;
-        System.out.printf("%n%30s%11.2f", "Balance: ", balance);
+        double amountPaid = amountGiven;
+        double balance = amountPaid - billTotal;
+        System.out.printf("%n%30s%11.2f%n%30s%11.2f%n%30s%11.2f", "Bill Total: ", billTotal, "Amount paid: ", amountGiven,
+                "Balance: ", balance);
         System.out.println("\n" + "=".repeat(60));
-        System.out.printf("%s%.2f", "THANK YOU FOR YOUR PATRONAGE");
+        System.out.printf("%s", "THANK YOU FOR YOUR PATRONAGE");
         System.out.println("\n" + "=".repeat(60));
     }
 
     }
-
-
-
-
-
-
-
-
