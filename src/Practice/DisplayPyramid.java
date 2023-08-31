@@ -9,14 +9,14 @@ public class DisplayPyramid {
         System.out.println("Enter the number of lines:  ");
         int num = input.nextInt();
 
-        for (int x = 0; x <= num; x++){
-            for (int y = num-x; y > 1; y--) {
-                System.out.print(" ");
-            }
+        for (int x = 0; x < num; x++){
             for (int y = 0; y <= x; y++) {
                 System.out.print("* ");
             }
             System.out.println();
+
+            }
+
         }
     }
-}
+

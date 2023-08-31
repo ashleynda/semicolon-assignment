@@ -18,11 +18,11 @@ public class TaxCalculator {
 
         if (earnings <= 30000){
             taxBalance = (taxPercentage / 100) * earnings;
-            System.out.printf("Citizens total tax: %d", taxBalance);
+            System.out.printf("Citizens total tax: %f", taxBalance);
         }
         if (earnings > 30000){
             taxBalance = (taxPercentage1 / 100) * earnings;
-            System.out.printf("Citizens total tax: %d", taxBalance);
+            System.out.printf("Citizens total tax: %f", taxBalance);
         }
     }
 }

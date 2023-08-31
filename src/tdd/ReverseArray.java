@@ -1,10 +1,11 @@
 package tdd;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class ReverseArray {
-    public int reverse(int numbers) {
+    public static void main(String[] args) {
+        reverse(12321);
+
+    }
+    public static int reverse(int numbers) {
         String num = numbers + "";
         String ash = "";
         for (int counter = num.length()-1; counter >= 0; counter--) {
@@ -14,6 +15,8 @@ public class ReverseArray {
 
         return Integer.parseInt(ash);
     }
+
+
 }
 
 

@@ -8,12 +8,19 @@ public class FindLargestNumber {
 
         int number = 0;
         int largest = 0;
+        int counter = 0;
 
-        for (int counter = 1; counter <= 10; counter++) {
+        while (counter < 10) {
             System.out.println("Enter values:  ");
             int values = input.nextInt();
 
+            if (values >= largest){
+                largest = values;
+            }
+            counter++;
         }
+        System.out.printf("The Largest is %d\n", largest);
+
 
 
     }
