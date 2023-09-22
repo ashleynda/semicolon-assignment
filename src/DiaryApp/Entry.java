@@ -1,20 +1,20 @@
-package Diaries;
+package DiaryApp;
 
 public class Entry {
-    private int id;
+    private String id;
     private String title;
     private String body;
 
-    public Entry(int id, String title, String body) {
+    public Entry(String  id, String title, String body) {
         this.id = id;
         this.title = title;
         this.body = body;
     }
 
-    public void setId(int id){
+    public void setId(String  id){
         this.id = id;
     }
-    public int getId(){
+    public String  getId(){
         return id;
     }
     public void setTitle(String title){
@@ -30,6 +30,8 @@ public class Entry {
         return body;
     }
 
-
+    public String getEntry(){
+        return id + " " + title + " " + body;
+    }
 }
 

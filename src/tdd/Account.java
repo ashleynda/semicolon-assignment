@@ -23,7 +23,12 @@ public class Account {
     }
 
     private boolean validate(String pin) {
-        return this.pin.equals(pin);
+        if (this.pin.equals(pin)){
+            return true;
+        }
+        else {
+            throw new IllegalArgumentException("Ya pin is not correct");
+        }
     }
 
     public void deposit(int amount) {
@@ -34,6 +39,9 @@ public class Account {
         if (amount > 0){
             if (validate(pin) && amountGreater(amount))
                 balance -= amount;
+        }
+        else {
+            throw new IllegalArgumentException("OLE!!!!! you no get money");
         }
     }
     private boolean amountGreater(int amount) {

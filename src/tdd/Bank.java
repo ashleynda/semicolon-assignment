@@ -13,19 +13,19 @@ public class Bank {
     public Account find(String accountNumber) {
         for (Account access : accounts) {
             if(access.getAccountNumber(accountNumber).equals(accountNumber))return access;
-        }throw new IllegalArgumentException("Account not found");
+        }
+        throw new IllegalArgumentException("Account not found");
     }
 
 
-    public Account register(String firstName, String lastName, String pin) {
+    public void register(String firstName, String lastName, String pin) {
         String accountName = firstName + " " + lastName;
         Account newAccount = new Account(generateAccountNumber(), accountName, pin);
         accounts.add(newAccount);
-        return newAccount;
     }
 
     private String generateAccountNumber() {
-        return accounts.size() + 1 + "";
+        return accounts.size() + 1 +"";
     }
     public int checkBalance(String number, String number1) {
         return find(number).getBalance(number1);
@@ -37,5 +37,11 @@ public class Bank {
 
     public void withdraw(int amount, String number,String pin) {
         find(number).withdraw(amount,pin);
+    }
+
+
+    public void transfer(String senderNumber, String receiverNumber, int amount, String pin){
+        find(senderNumber).withdraw(amount,pin);
+        find(receiverNumber).deposit(amount);
     }
 }

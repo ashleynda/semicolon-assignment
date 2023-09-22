@@ -6,7 +6,7 @@ public class FindLargestNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int number = 0;
+
         int largest = 0;
         int counter = 0;
 

@@ -9,7 +9,8 @@ public class BankTest {
     public void canRegisterCustomers(){
         Bank bank = new Bank("GTB");
         bank.register("Ashley", "Ndabai", "1234");
-        bank.find("1");
+
+
 
     }
     @Test
@@ -48,6 +49,18 @@ public class BankTest {
         assertEquals(0, bank.checkBalance("1", "1234"));
         bank.deposit(5_000, "1");
         assertEquals(5_000, bank.checkBalance("1", "1234"));
+    }
+    @Test
+    public void canTransferTest(){
+        Bank bank = new Bank("GTB");
+        bank.register("Ashley", "Ndabai", "1234");
+        assertEquals(new Account("1", "Ashley Ndabai","1234").getAccountNumber("1"),bank.find("1").getAccountNumber("1"));
+        bank.deposit(5000,"1");
+        bank.register("Ijeoma", "Mercy", "2344");
+       assertEquals(new Account("2", "Ijeoma Mercy","2323").getAccountNumber("2"),bank.find("2").getAccountNumber("2"));
+       bank.transfer("1", "2", 5_000, "1234");
+       assertEquals(0, bank.checkBalance("1", "1234"));
+       assertEquals(5_000, bank.checkBalance("2", "1234"));
     }
 
 
