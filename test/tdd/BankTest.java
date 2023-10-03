@@ -9,9 +9,6 @@ public class BankTest {
     public void canRegisterCustomers(){
         Bank bank = new Bank("GTB");
         bank.register("Ashley", "Ndabai", "1234");
-
-
-
     }
     @Test
     public void canFindAccountTest(){

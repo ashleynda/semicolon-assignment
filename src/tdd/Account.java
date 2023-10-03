@@ -2,9 +2,6 @@ package tdd;
 
 public class Account {
     private String pin;
-
-
-
     public int getBalance(String number) {
         return this.balance;
     }
