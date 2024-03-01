@@ -47,7 +47,7 @@ const AdminSignin = () => {
             if (message.includes('Successful')) {
                 console.log('Signin Successful');
                 localStorage.setItem('quizID', id);
-                navigate('/AdninDashboard');
+                navigate('/AdminDashboard');
                 return;                
             }
 
@@ -60,15 +60,15 @@ const AdminSignin = () => {
     <div className='px-40 py-40 '>
         <div className='flex flex-col justify-center items-center gap-10' >
         <h1 className='text-5xl font-semibold text-blue-600'>Log in</h1>
-        <h3 id='signin-response'>{adminLogin}</h3>
-        <form onSubmit={adminSignin}>
+        <h3 id='signin-response'>{adminSignin}</h3>
+        <form onSubmit={adminLogin}>
             <div className='flex flex-col justify-center items-center gap-8 '>
-            <input type='email' placeholder='Enter Email' className={inputStyle()}/>
-            <input type='text' placeholder='Enter Admin no' className={inputStyle()}/>
-            <input type="password" placeholder='Enter Password' className={inputStyle()} />
+            <input type='email' placeholder='Enter Email' className={inputStyle()} value={userData.email} onChange={(e) => setUserData({...userData, email: e.target.value})}/>
+            <input type='text' placeholder='Enter Admin no' className={inputStyle()} value={userData.adminNo} onChange={(e) => setUserData({...userData, adminNo: e.target.value})}/>
+            <input type="password" placeholder='Enter Password' className={inputStyle()} value={userData.password} onChange={(e) => setUserData({...userData, password: e.target.value})}/>
             </div>
             <div className='flex justify-center items-center mt-16'>
-            <button className='flex justify-center items-center text-2xl bg-blue-600 text-white rounded-lg h-10 w-40' type='submit'>Log in</button>
+            <button className='flex justify-center items-center text-2xl bg-blue-600 text-white rounded-lg h-10 w-40' type='submit' onClick={submitAdmin}>Log in</button>
             
             </div>
         </form>

@@ -6,6 +6,14 @@ const AdminSignup = () => {
     const navigate = useNavigate();
     const [adminSignup, setAdminSignup] = useState('');
 
+    const admin = () => {
+      navigate('/dashboard')
+    }
+      
+    const inputStyle = () => {
+      return 'rounded-xl border-2 solid border-black w-80 h-10 placeholder-black'
+    }
+
     const [userData, setUserData] = useState({
       firstname: '',
       lastname: '',
@@ -54,14 +62,7 @@ const AdminSignup = () => {
       })
       .catch((error) => console.error('Error:', error));
 };
-    const admin = () => {
-      navigate('/dashboard')
-    }
-    
-  
-    const inputStyle = () => {
-      return 'rounded-xl border-2 solid border-black w-80 h-10 placeholder-black'
-    }
+ 
 
   return (
     <div className='px-20 py-20 '>
