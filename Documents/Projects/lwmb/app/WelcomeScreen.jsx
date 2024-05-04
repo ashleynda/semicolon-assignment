@@ -1,0 +1,53 @@
+import React from 'react';
+import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
+
+import colors from './config/colors';
+
+function WelcomeScreen(props) {
+    return (
+        <ImageBackground 
+            style={styles.background}
+            source={require('./assets/alysha.jpg')}
+        >
+            <View style={styles.logoContainer}>
+                <Image style={styles.logo} source={require('./assets/loveworld.jpeg')}/> 
+                <Text>Upload your music</Text>         
+            </View>
+            <View style={styles.loginButton}>
+                <Text>Login</Text>
+            </View>
+            <View style={styles.registerButton}></View>
+        </ImageBackground>
+    );
+}
+
+const styles = StyleSheet.create({
+    background: {
+        flex: 1,
+        justifyContent: "flex-end",
+        alignItems: "center",
+    },
+    logoContainer: {
+        position: 'absolute',
+        top: 70,
+        alignItems: 'center',
+
+    },
+    logo: {
+        width: 100,
+        height: 100,
+    },
+    loginButton: {
+        width: "100%",
+        height: 70,
+        backgroundColor: colors.primary,
+    },
+    registerButton: {
+        width: "100%",
+        height: 70,
+        backgroundColor: "#4ecdc4",
+    },
+    
+})
+
+export default WelcomeScreen;
