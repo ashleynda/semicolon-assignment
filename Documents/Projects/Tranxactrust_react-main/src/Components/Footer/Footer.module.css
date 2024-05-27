@@ -1,0 +1,256 @@
+footer {
+  background-color: #c8ddf4;
+  color: rgb(6, 6, 6);
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 5%;
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.foot {
+  padding-top: 15%;
+}
+
+/* .footercon {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+
+} */
+
+footer .xlogo3 {
+  height: 50px;
+}
+
+footer .xlogo1 {
+  display: block;
+}
+
+section .row1 {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+
+}
+
+.footerheader {
+  display: flex;
+  gap: 275px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: rgb(255, 89, 0);
+}
+
+.footerheader1 {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footercontent {
+  letter-spacing: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  flex-shrink: 0;
+  line-height: 40px;
+}
+
+footer .logolink {
+  display: inline-flex;
+  align-items: center;
+  gap: 29px;
+}
+
+footer .brandlogo {
+  width: 25px;
+  height: 40px;
+}
+
+footer .copyright {
+  color: var(--Gray-Colour-08, #6E7480);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding: 40px;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+section .button {
+  display: flex;
+  float: left;
+  width: 100%;
+  gap: 20px;
+}
+
+section .account {
+  border: 5px solid #0887ef;
+  background-color: #0887ef;
+  border-radius: 28px;
+  padding: 10px 28px;
+  color: var(--Gray-Colour-01, #FCFCFD);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+section .contact {
+  display: flex;
+  color: var(--Gray-Colour-08, #0887ef);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  gap: 0px;
+  position: relative;
+  top: 23%;
+  justify-content: center;
+  align-items: center;
+}
+
+section .contact:hover {
+  column-gap: 5px;
+  color: #4e9cea;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* 
+  @media (min-width: 912px) and (max-width: 1780px)  {
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 911px)  {
+  
+  }
+  
+  
+  @media (min-width: 250px) and (max-width: 689px) {
+  
+  }
+  
+  @media(min-width: 540px) and (max-width: 767.98px) {
+    
+  }
+  
+  @media(min-width: 390px) and (max-width: 539px){ */
+@media screen and (max-width: 728px) {
+
+  footer {
+    background-color: #c8ddf4;
+    color: rgb(6, 6, 6);
+    /* padding: 20px; */
+    width: 100%;
+    margin-top: 5%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+
+  .foot {
+    padding-top: 15%;
+    margin-left: 5%;
+  }
+
+  /* .footercon {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  } */
+
+  footer .xlogo3 {
+    height: 50px;
+  }
+
+  footer .xlogo1 {
+    display: block;
+    margin-left: 5%;
+
+  }
+
+  section .row1 {
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .footerheader {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgb(255, 89, 0);
+  }
+
+  .footercontent {
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    flex-shrink: 0;
+    line-height: 40px;
+  }
+
+  footer .logolink {
+    display: inline-flex;
+    align-items: center;
+    gap: 29px;
+  }
+
+  footer .brandlogo {
+    width: 25px;
+    height: 40px;
+  }
+
+  footer .copyright {
+    color: var(--Gray-Colour-08, #6E7480);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+
+  }
+
+  .trxt {
+    float: left;
+    width: fit-content;
+    font-size: 14px;
+  }
+
+}

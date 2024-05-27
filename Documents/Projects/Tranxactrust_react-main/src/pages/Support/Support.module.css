@@ -1,0 +1,11 @@
+.support {
+    border-radius: 38px;
+    color: var(--Gray-Colour-01, #173c5a);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+  }

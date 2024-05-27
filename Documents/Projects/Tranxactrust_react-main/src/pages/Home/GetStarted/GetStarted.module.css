@@ -1,0 +1,371 @@
+.getStarted {
+  display: block;
+  background-color: rgb(16, 69, 214);
+  border-radius: 18px;
+  width: 800px;
+  margin-top: 5%;
+}
+
+.getStarted:hover {
+  background-color: r gb(255, 89, 0);
+}
+
+section .ready {
+  color: var(--Secondary-Colour-06, white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 901;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin-bottom: 30px;
+
+}
+
+.waitlist {
+  color: var(--Secondary-Colour-06, white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 601;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin-bottom: 30px;
+}
+
+section .getAccess {
+  color: var(--Gray-Colour-08, white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+section .get {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  top: 78%;
+
+}
+
+section .catcher {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 5%;
+
+}
+
+section .email::placeholder {
+  color: #f3f5f9;
+}
+
+section .ticker {
+  gap: 20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  letter-spacing: 1.3px;
+  width: 100%;
+  display: flex;
+}
+
+section .email {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  border-radius: 18px;
+  border: 2px solid #ccc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  margin-top: 5%;
+  padding-right: 30px;
+
+}
+
+.inputContainer {
+  position: relative;
+}
+
+section input {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.joinIcon {
+  height: 1.8rem;
+  width: 1.8rem;
+  position: absolute;
+  top: 57%;
+  right: 34%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+section .get1 {
+  display: flex;
+  color: var(--Gray-Colour-08, white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  gap: 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+section .get1:hover {
+  gap: 20px;
+  column-gap: 10px;
+  color: wheat;
+}
+
+section .start {
+  border: 5px solid rgb(254, 252, 252);
+  background-color: rgb(253, 251, 251);
+  border-radius: 28px;
+  padding: 10px 28px;
+  color: var(--Gray-Colour-01, black);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+section .start:hover {
+  border: 5px solid rgb(0, 60, 255);
+  background-color: rgb(0, 60, 255);
+  color: var(--Gray-Colour-01, #fafafc);
+
+}
+
+/* *{
+    text-decoration: none;
+  } */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* 
+  @media (min-width: 912px) and (max-width: 1780px)  {
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 911px)  {
+  
+  }
+  
+  
+  @media (min-width: 250px) and (max-width: 689px) {
+  
+  }
+  
+  @media(min-width: 540px) and (max-width: 767.98px) {
+    
+  }
+  
+  @media(min-width: 390px) and (max-width: 539px){ */
+
+@media screen and (max-width: 728px) {
+  .getStarted {
+    display: block;
+    background-color: rgb(16, 69, 214);
+    border-radius: 18px;
+    width: 100%;
+
+  }
+
+  .getStarted:hover {
+    background-color: rgb(255, 89, 0);
+  }
+
+  section .ready {
+    color: var(--Secondary-Colour-06, white);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 901;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-bottom: 90px;
+
+  }
+
+  section .getAccess {
+    color: var(--Gray-Colour-08, white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding-bottom: 15%;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  section .get {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+    /* position: relative; */
+    top: 78%;
+    margin-left: -4%;
+
+  }
+
+  section .catcher {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  section .email::placeholder {
+    color: #f3f5f9;
+  }
+
+  section .ticker {
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 1.3px;
+    width: 100%;
+    display: flex;
+  }
+
+  section .email {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    border-radius: 18px;
+    border: 2px solid #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 5%;
+
+  }
+
+  section input {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+
+
+  section .get1 {
+    display: flex;
+    color: var(--Gray-Colour-08, white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    gap: 5px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .get1:hover {
+    gap: 20px;
+    column-gap: 10px;
+    color: wheat;
+  }
+
+  .joinIcon {
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+  }
+
+  section .start {
+    border: 5px solid rgb(254, 252, 252);
+    background-color: rgb(253, 251, 251);
+    border-radius: 28px;
+    padding: 10px 28px;
+    color: var(--Gray-Colour-01, black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  section .start:hover {
+    border: 5px solid rgb(0, 60, 255);
+    background-color: rgb(0, 60, 255);
+    color: var(--Gray-Colour-01, #fafafc);
+
+  }
+
+  .pointer {
+    display: none;
+  }
+}

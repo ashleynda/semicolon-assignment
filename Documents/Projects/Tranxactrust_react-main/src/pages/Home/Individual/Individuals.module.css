@@ -1,0 +1,287 @@
+.forIndividuals{
+    display: block;
+    background: rgb(242, 243, 250) -96.294px 0px / 147.798% 100% no-repeat; 
+    margin: 0 auto;
+  
+  }
+  
+  section .individauls{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    justify-content: space-between;
+    gap: 70px;
+    /* padding-left: 150px; */
+    /* padding-right: 200px; */
+  }
+  
+  section .account3{
+    border: 5px solid  rgb(9, 9, 9);
+    background-color:  rgb(9, 9, 9);
+    border-radius: 28px;
+    padding: 5px 8px;
+    color: var(--Gray-Colour-01, #FCFCFD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.3px; 
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .account3:hover{
+    gap: 5px;
+  }
+  
+  section .img{
+    display: block;
+  }
+
+  section .introHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 40px; 
+    padding: 10px;
+    width: 650px;
+    text-align: left;
+  }
+
+  section .ticker{
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 1.3px;
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  /* section .catcher{
+    display: flex;
+    margin-left: -75%;
+    width: fit-content;
+  
+  } */
+
+  section .puncher{
+    width: 100%;
+    line-height: 30px;
+  }
+
+  section .barrier1 {
+    color: var(--Secondary-Colour-06, black);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
+    font-size: 30px;
+    font-weight: 910;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1.8px;
+    padding-right: -7%;
+  }
+
+  section .trust2{
+    width: 700px;
+    color: var(--Gray-Colour-08, #6E7480);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 0 auto;
+    letter-spacing: 1.3px;
+  }
+
+  section .span2{
+    color: var(--primary-co-our-05, #0887ef);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
+
+  section .span3{
+    color: var(--primary-co-our-05, orangered);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
+
+  section .happy{
+    width: 450px;
+    height: 100%;
+    border-radius: 10px; 
+    flex-shrink: 0; 
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* Media Queries */
+
+/* @media (min-width: 912px) and (max-width: 1780px)  {
+
+}
+
+@media (min-width: 768px) and (max-width: 911px)  {
+
+}
+
+
+@media (min-width: 250px) and (max-width: 689px) {
+
+}
+
+@media(min-width: 540px) and (max-width: 767.98px) {
+	
+}
+
+@media(min-width: 390px) and (max-width: 539px){ */
+
+  @media screen and (max-width: 728px) {
+
+  section{
+    display: block;
+    background: rgb(242, 243, 250) -96.294px 0px / 147.798% 100% no-repeat; 
+    align-items: center;
+    width: 100%;
+  }
+  
+  section .individauls{
+    display: block;
+    align-items: center;
+    /* padding-left: 5%; */
+    /* margin: 0 auto; */
+    /* width: fit-content; */
+  }
+  
+  section .account3{
+    border: 5px solid  rgb(9, 9, 9);
+    background-color:  rgb(9, 9, 9);
+    border-radius: 28px;
+    padding: 5px 8px;
+    color: var(--Gray-Colour-01, #FCFCFD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.3px; 
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .account3:hover{
+    gap: 5px;
+  }
+
+  section .catcher{
+    display: block;
+    /* grid-template-columns: 1fr; */
+    /* margin-right: -75%; */
+    width: fit-content;
+   
+  }
+
+  section .introHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    /* padding: 10px; */
+    width: fit-content;
+    text-align: left;
+  }
+
+  section .ticker{
+    /* gap: 20px; */
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 1.3px;
+    width: fit-content;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  section .puncher{
+    width: fit-content;
+    line-height: 30px;
+  }
+
+  section .barrier1 {
+    width: fit-content;
+    margin-right: 5%;
+    
+  }
+
+  section .trust2{
+    width: fit-content;
+    color: var(--Gray-Colour-08, #6E7480);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 0 auto;
+    letter-spacing: 1.3px;
+  }
+
+  section .span2{
+    color: var(--primary-co-our-05, #0887ef);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
+
+  section .span3{
+    color: var(--primary-co-our-05, orangered);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
+
+  section .happy{
+    display: none;
+  
+}
+
+}

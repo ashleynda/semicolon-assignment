@@ -1,0 +1,48 @@
+  
+  section .contact {
+    display: flex;
+    color: var(--Gray-Colour-08, #0887ef);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    gap: 0px;
+    position: relative;
+    top: 23%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    display: flex;
+    float: left;
+    width: 100%;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 728px) {
+    section .contact {
+      display: block;
+      color: var(--Gray-Colour-08, #0887ef);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 1.3px;
+      gap: 0px;
+      position: relative;
+      top: 23%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    li {
+      display: block;
+      float: left;
+      width: 100%;
+      gap: 20px;
+    }
+  }

@@ -1,0 +1,39 @@
+section .account {
+    border: 5px solid #0887ef;
+    background-color: #0887ef;
+    border-radius: 28px;
+    padding: 10px 28px;
+    color: var(--Gray-Colour-01, #FCFCFD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+    line-height: normal;
+    letter-spacing: 0.3px;
+  }
+  
+  section .contact {
+    display: flex;
+    color: var(--Gray-Colour-08, #0887ef);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    gap: 0px;
+    position: relative;
+    top: 23%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .button {
+    display: flex;
+    float: left;
+    width: 100%;
+    gap: 20px;
+  }
+
+  

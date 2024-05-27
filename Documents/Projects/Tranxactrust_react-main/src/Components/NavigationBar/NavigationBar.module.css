@@ -1,0 +1,99 @@
+main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(247, 250, 253); 
+    box-sizing: border-box;
+  }
+  
+  nav {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    
+  }
+  
+  li {
+    margin-right: 25px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 1px;
+  }
+  .menu{
+    color: black;
+
+  }
+  
+  .logo{
+    margin: 0 auto;
+    width: 55px;
+    
+  }
+    
+  .signup{
+    border: 5px solid  #068bf7;
+    background-color:  #068bf7;
+    border-radius: 18px;
+    padding: 4px 10px;
+    color: var(--Gray-Colour-01, white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: -49%;
+
+  } 
+  
+  .login{
+      border-radius: 6px;
+      padding: 4px 10px;
+      color: var(--Gray-Colour-01,  #068bf7);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: normal;
+      letter-spacing: 0.3px; 
+      transition: 0.2s ease-in;
+      /* padding-top: 5%; */
+      margin-top: -19%;
+
+  }
+
+  /* @media only screen and (max-width: 56.25em){
+    nav {
+      padding: 0rem 0 0;
+      }
+  } */
+
+  @media only screen and (max-width: 728px){
+    main{
+      width: 100%;
+      /* overflow: hidden; */
+      /* position: relative; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background: rgb(247, 250, 253); 
+      box-sizing: border-box;
+    }
+    .login{
+      display: block;
+    }
+    .signup{
+      display: block;
+      margin-top: 1%;
+    }
+  }
+  
